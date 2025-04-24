@@ -1,16 +1,14 @@
 {
   "name": "auth-app",
   "version": "1.0.0",
-  "description": "Auth system with MongoDB",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "mongoose": "^5.10.9",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0"
   }
 }
