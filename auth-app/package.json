@@ -1,20 +1,16 @@
 {
   "name": "auth-app",
   "version": "1.0.0",
-  "main": "server.js", 
+  "description": "Auth system with MongoDB",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js", 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^3.0.2",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.13.2"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "dotenv": "^8.2.0"
   }
 }
