@@ -22,7 +22,6 @@
       <link rel="stylesheet" href="assets/css/default.css">
       <link rel="stylesheet" href="assets/css/style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
    </head>
    <body>
       <!--[if lte IE 9]>
@@ -45,8 +44,8 @@
 
       <!-- header area start -->
       <header>
-         <div id="header-sticky" class="header__area header__padding-2 header__shadow">
-            <div class="container">
+         <div id="header-sticky" class="header__area header__transparent header__padding header__white">
+            <div class="container-fluid">
                <div class="row align-items-center">
                   <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
                      <div class="header__left d-flex">
@@ -56,7 +55,7 @@
                   </div>
                   <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-10 col-sm-8 col-6">
                      <div class="header__right d-flex justify-content-end align-items-center">
-                        <div class="main-menu main-menu-2">
+                        <div class="main-menu main-menu-3">
                            <nav id="mobile-menu">
                               <ul>
                                  <li class="">
@@ -86,6 +85,7 @@
                            </nav>
                         </div>
                         
+                        
                         <div class="sidebar__menu d-xl-none">
                            <div class="sidebar-toggle-btn ml-30" id="sidebar-toggle">
                                <span class="line"></span>
@@ -100,11 +100,6 @@
          </div>
       </header>
       <!-- header area end -->
-
-      <!-- cart mini area start -->
-      
-      <!-- cart mini area end -->
-
 
       <!-- sidebar area start -->
       <div class="sidebar__area">
@@ -131,24 +126,198 @@
 
       <main>
 
-         <!-- error area start -->
-         <section class="error__area pt-200 pb-200">
+         <!-- page title area start -->
+         <section class="page__title-area page__title-height page__title-overlay d-flex align-items-center" data-background="assets/img/page-title/interview.jpg">
             <div class="container">
                <div class="row">
-                  <div class="col-xxl-8 offset-xxl-2 col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                     <div class="error__item text-center">
-                        
-                        <div class="error__content">
-                           <h3 class="error__title">This Page is Under Construction</h3>
-                           <p>Sorry for the Inconvenience.</p>
-                           <a href="index.html" class="e-btn e-btn-3 e-btn-4">Back To Home</a>
-                        </div>
+                  <div class="col-xxl-12">
+                     <div class="page__title-wrapper mt-110">
+                        <h3 class="page__title">Interview Panel</h3>                         
+                        <nav aria-label="breadcrumb">
+                           <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Interview Panel</li>
+                           </ol>
+                        </nav>
                      </div>
                   </div>
                </div>
             </div>
          </section>
-         <!-- error area end -->
+         <!-- page title area end -->
+
+         <!-- blog area start -->
+         <section class="blog__area pt-120 pb-120">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xxl-8 col-xl-8 col-lg-8">
+                     <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                           <div class="blog__wrapper">
+                              <div class="blog__item white-bg mb-30 transition-3 fix">
+                                 <div class="blog__thumb w-img fix">
+                                    <a href="https://drive.google.com/file/d/1151D5DFeT3lysF2DD7ca6KFsFkbCOMvk/view?usp=drivesdk">
+                                       <img src="assets/img/Common_interview.png" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="blog__content">
+                                    <div class="blog__tag">
+                                       <a href="#">Question</a>
+                                    </div>
+                                    <h3 class="blog__title"><a href="https://drive.google.com/file/d/1151D5DFeT3lysF2DD7ca6KFsFkbCOMvk/view?usp=drivesdk">50 Common Interview Question</a></h3>
+         
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                           <div class="blog__wrapper">
+                              <div class="blog__item white-bg mb-30 transition-3 fix">
+                                 <div class="blog__thumb w-img fix">
+                                    <a href="https://docs.google.com/document/d/115sTqPKRLbz9VReH8-mFuP4yAsPIuagb/edit?usp=drivesdk&ouid=115234164314366842132&rtpof=true&sd=true">
+                                       <img src="assets/img/Gp_points.png" alt="">
+                                    </a>
+                                 </div>
+                                 <div class="blog__content">
+                                    <div class="blog__tag">
+                                       <a href="#" class="purple">Points</a>
+                                    </div>
+                                    <h3 class="blog__title"><a href="https://docs.google.com/document/d/115sTqPKRLbz9VReH8-mFuP4yAsPIuagb/edit?usp=drivesdk&ouid=115234164314366842132&rtpof=true&sd=true">Group Discussion Points</a></h3>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+  
+
+             
+                     </div>
+                     <div class="row">
+                        <div class="col-xxl-12">
+                           <div class="basic-pagination wow fadeInUp mt-30" data-wow-delay=".2s">
+                              <ul class="d-flex align-items-center"> 
+                                 <li class="prev">
+                                    <a href="Interview.html" class="link-btn link-prev">
+                                       Prev
+                                       <i class="arrow_left"></i>
+                                       <i class="arrow_left"></i>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="Interview.html">
+                                       <span>1</span>
+                                    </a>
+                                 </li>
+                                 <li class="active">
+                                    <a href="Interview2.html">
+                                       <span>2</span>
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#">
+                                       <span>3</span>
+                                    </a>
+                                 </li>
+                                 <li class="next">
+                                    <a href="#" class="link-btn">
+                                       Next
+                                       <i class="arrow_right"></i>
+                                       <i class="arrow_right"></i>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xxl-4 col-xl-4 col-lg-4">
+                     <div class="blog__sidebar pl-70">
+                        
+                        <div class="sidebar__widget mb-55">
+                           <div class="sidebar__widget-head mb-35">
+                              <h3 class="sidebar__widget-title">More</h3>
+                           </div>
+                           <div class="sidebar__widget-content">
+                              <div class="rc__post-wrapper">
+                                 <div class="rc__post d-flex align-items-center">
+                                    <div class="rc__thumb mr-20">
+                                       <a href="https://leetcode.com"><img src="assets/img/blog/sm/coding.jpg" alt=""></a>
+                                    </div>
+                                    <div class="rc__content">
+                                       <div class="rc__meta">
+                                          <span>TBA</span>
+                                       </div>
+                                       <h6 class="rc__title"><a href="https://leetcode.com">Have Coding Knowledge but don't know where to practice?</a></h6>
+                                       <div class="course__btn">
+                                          <a href="https://leetcode.com" class="link-btn">
+                                             Click Here
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="rc__post d-flex align-items-center">
+                                    <div class="rc__thumb mr-20">
+                                       <a href="https://www.busuu.com"><img src="assets/img/blog/sm/english.jpg" alt=""></a>
+                                    </div>
+                                    <div class="rc__content">
+                                       <div class="rc__meta">
+                                          <span>TBA</span>
+                                       </div>
+                                       <h6 class="rc__title"><a href="https://www.busuu.com">Are you worried about not being able to speak in English, Here the Solution!</a></h6>
+                                       <div class="course__btn">
+                                          <a href="https://www.busuu.com" class="link-btn">
+                                             Click Here
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </a>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="rc__post d-flex align-items-center">
+                                    <div class="rc__thumb mr-20">
+                                       <a href="https://docs.google.com/document/d/15GU7yPw6pobBiI6mMR0RmgRzvDbypafeeuWHhWG_6Sc/edit?usp=sharing"><img src="assets/img/blog/sm/game.png" alt=""></a>
+                                    </div>
+                                    <div class="rc__content">
+                                       <div class="rc__meta">
+                                          <span>TBA</span>
+                                       </div>
+                                       <h6 class="rc__title"><a href="https://docs.google.com/document/d/15GU7yPw6pobBiI6mMR0RmgRzvDbypafeeuWHhWG_6Sc/edit?usp=sharing">Say Bye to old method of learning, Learn Code while play games</a></h6>
+                                       <div class="course__btn">
+                                          <a href="https://docs.google.com/document/d/15GU7yPw6pobBiI6mMR0RmgRzvDbypafeeuWHhWG_6Sc/edit?usp=sharing" class="link-btn">
+                                             Click Here
+                                             <i class="fa fa-arrow-right"></i>
+                                             <i class="fa fa-arrow-right"></i>
+                                          </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="sidebar__widget mb-55">
+                           <div class="sidebar__widget-head mb-35">
+                              <h3 class="sidebar__widget-title">Tags</h3>
+                           </div>
+                           <div class="sidebar__widget-content">
+                              <div class="sidebar__tag">
+                                 
+                                 <a href="course.html">Course</a>
+                                 
+                                 <a href="https://youtu.be/fis26HvvDII?si=YPSI9-FH3fUFX9RV">App</a>
+                                 <a href="https://prepinsta.com">Education</a>
+                                 <a href="https://instagram.com/freeway_monk?igshid=MzRlODBiNWFlZA==">Tips</a>
+                              </div>
+                           </div>
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- blog area end -->
 
       </main>
 
